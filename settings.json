@@ -1,0 +1,192 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema-preview",
+    "actions": 
+    [
+        {
+            "command": "closeOtherPanes",
+            "id": "User.closeOtherPanes"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "id": "User.moveFocus.87C324ED"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "debugFeatures": true,
+    "defaultProfile": "{6845b0e6-33b1-516c-b3a4-61406134f272}",
+    "firstWindowPreference": "persistedWindowLayout",
+    "focusFollowMouse": true,
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.DuplicatePaneRight",
+            "keys": "alt+shift+down"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+minus"
+        },
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.moveFocus.87C324ED",
+            "keys": "alt+right"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+plus"
+        },
+        {
+            "id": "Terminal.ClosePane",
+            "keys": "ctrl+w"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "ctrl+t"
+        }
+    ],
+    "minimizeToNotificationArea": true,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "adjustIndistinguishableColors": "indexed",
+            "colorScheme": "Ultradark",
+            "font": 
+            {
+                "face": "CaskaydiaCove Nerd Font Mono",
+                "size": 9,
+                "weight": "extra-light"
+            },
+            "opacity": 95,
+            "padding": "20",
+            "unfocusedAppearance": 
+            {
+                "colorScheme": "UltraDark (Unfocused)"
+            },
+            "useAcrylic": false
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": true,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{6845b0e6-33b1-516c-b3a4-61406134f272}",
+                "hidden": false,
+                "name": "archlinux",
+                "source": "Microsoft.WSL",
+                "tabTitle": null
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#0F0F0F",
+            "black": "#2A2A2A",
+            "blue": "#A8D5FF",
+            "brightBlack": "#6E6E6E",
+            "brightBlue": "#C2E4FF",
+            "brightCyan": "#C2FFFF",
+            "brightGreen": "#C2FFC8",
+            "brightPurple": "#E4C2FF",
+            "brightRed": "#FFB3B3",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFAC2",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#A8FFFF",
+            "foreground": "#F5F5F5",
+            "green": "#A8FFB0",
+            "name": "UltraDark (Unfocused)",
+            "purple": "#D5A8FF",
+            "red": "#FF9999",
+            "selectionBackground": "#FFFFFF",
+            "white": "#F0F0F0",
+            "yellow": "#FFF5A8"
+        },
+        {
+            "background": "#000000",
+            "black": "#000000",
+            "blue": "#83A8FF",
+            "brightBlack": "#333333",
+            "brightBlue": "#B4CCFF",
+            "brightCyan": "#B8F4FF",
+            "brightGreen": "#DBF1BA",
+            "brightPurple": "#DDC0F2",
+            "brightRed": "#F6A9AE",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFE6A6",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#89DFFB",
+            "foreground": "#FFFFFF",
+            "green": "#C3E69B",
+            "name": "Ultradark",
+            "purple": "#C992EA",
+            "red": "#F07178",
+            "selectionBackground": "#9584B8",
+            "white": "#CCCCCC",
+            "yellow": "#FFD47B"
+        }
+    ],
+    "searchWebDefaultQueryUrl": "https://www.google.com/search?q=",
+    "showTabsFullscreen": false,
+    "tabWidthMode": "equal",
+    "theme": "dark",
+    "themes": [],
+    "useAcrylicInTabRow": true,
+    "warning.confirmCloseAllTabs": false,
+    "warning.inputService": false,
+    "warning.largePaste": false,
+    "warning.multiLinePaste": false
+}
